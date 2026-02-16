@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mes Patrio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Bandera de México</h1>
+
+    <div class="bandera">
+
+    <!-- Verde -->
+    <div class="color-box verde">
+        <h3>Verde: Esperanza</h3>
+
+        <div class="color-display" id="verdeColor"></div>
+
+        <div class="controles">
+            <input type="range" min="0" max="100" value="100" id="verdeSlider">
+            <p id="verdeHex"></p>
+        </div>
+    </div>
+
+    <!-- Blanco -->
+    <div class="color-box blanco">
+        <h3>Blanco: Unidad</h3>
+
+        <div class="color-display blanco-fondo">
+            <img src="escudo.png" 
+                 alt="Escudo de México">
+        </div>
+
+        <!-- Espacio vacío para que mida igual -->
+        <div class="controles"></div>
+    </div>
+
+    <!-- Rojo -->
+    <div class="color-box rojo">
+        <h3>Rojo: La sangre de los héroes</h3>
+
+        <div class="color-display" id="rojoColor"></div>
+
+        <div class="controles">
+            <input type="range" min="0" max="100" value="100" id="rojoSlider">
+            <p id="rojoHex"></p>
+        </div>
+    </div>
+
+</div>
+
+
+    <div class="footer">
+    <p>Montes de Oca Hernández Alan 23200870</p>
+    <p>Cruz Álvarez Martin 23200821</p>
+</div>
+
+
+<script src="script.js"></script>
+</body>
+</html>

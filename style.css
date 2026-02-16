@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f5f5f5;
+}
+
+h1 {
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+/* CONTENEDOR PRINCIPAL */
+.bandera {
+    display: flex;
+    width: 95%;
+    height: 550px;
+    margin: 30px auto;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* CADA FRANJA */
+.color-box {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* AREA DE COLOR (MISMA ALTURA PARA TODOS) */
+.color-display {
+    flex: 1;
+    margin: 15px 0;
+}
+
+/* CONTROLES (MISMO ESPACIO EN LOS TRES) */
+.controles {
+    height: 90px; /* espacio fijo igual para todos */
+}
+
+/* COLORES */
+.verde .color-display {
+    background-color: #006847;
+}
+
+.blanco-fondo {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.blanco img {
+    width: 200px;
+}
+
+.rojo .color-display {
+    background-color: #ce1126;
+}
+
+/* SLIDERS */
+input[type="range"] {
+    width: 100%;
+    margin-top: 10px;
+}
+
+/* FOOTER */
+.footer {
+    margin-top: 0px;   /* antes 40px */
+    padding: 15px;
+    background-color: #ddd;
+    font-size: 18px;
+}
+
+
